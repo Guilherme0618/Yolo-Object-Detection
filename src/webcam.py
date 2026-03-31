@@ -6,7 +6,7 @@ def main():
     # model = YOLO("best.pt")
 
     # TESTE  2
-    model = YOLO("src/models/yolov8n.pt")
+    model = YOLO("models/yolov8n.pt")
 
     cap = cv2.VideoCapture(0)
 

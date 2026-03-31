@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("src/models/CarsDetection.pt")
+model = YOLO("models/CarsDetection.pt")
 cap = cv2.VideoCapture("videos/video.mp4")
 
 while True:
